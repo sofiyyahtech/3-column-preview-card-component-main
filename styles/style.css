@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+.lexend-deca{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.big-shoulder-display{
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 0.9675;
+    line-height: 1.4;
+}
+.flex-vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-wrapper {
+    min-height: 100vh;
+    padding: 3rem 1.5rem;
+}
+
+.cards-wrapper {
+    list-style: none;
+    margin-bottom: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1rem;
+    }
+   
+/* .btn-sedan:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.btn-suv:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+.btn-luxury:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+} */
+
+.btn-sedan{
+    color: hsl(31, 77%, 52%);
+}
+.btn-suv{
+    color: hsl(184, 100%, 22%);
+}
+.btn-luxury{
+    color: hsl(179, 100%, 13%);
+}
+.btn:hover{
+    background-color: transparent;
+    border: 0.2rem solid white;
+    color: white;
+}
+.each-card {
+    max-width: 20rem;
+    padding: 2rem;
+}
+.card-SUVs {
+    background-color: hsl(184, 100%, 22%)
+}
+.card-Sedan {
+    background-color: hsl(31, 77%, 52%);
+    /* border-radius: 0.3rem 0.3rem 0 0; */
+}
+.card-Luxury {
+    background-color: hsl(179, 100%, 13%);
+    /* border-radius: 0 0 0.3rem 0.3rem; */
+}
+.card-heading {
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
+    color: hsl(0 0% 95%);
+    margin: 0 0 1rem;
+}
+.card-discription {
+    margin: 0 0 1rem 0;
+
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);  
+   
+}
+@media (min-width:700px){
+    .cards-wrapper {
+        display:flex;
+    }
+}
+/* .card-Sedan{
+    border-radius: 0.3rem 0.3rem 0 0;
+} */
+/* .card-Luxury{
+    border-radius: 0 0 0.3rem 0.3rem;
+} */
+
